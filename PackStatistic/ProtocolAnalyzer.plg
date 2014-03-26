@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProtocolAnalyzer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ProtocolAnalyzer.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\GT\Desktop\ProtocolAnalyzer\ProtocolAnalyzer.rc"" 
+Creating temporary file "C:\Users\GT\AppData\Local\Temp\RSP4E3F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ProtocolAnalyzer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\GT\Desktop\ProtocolAnalyzer\AdapterSelected.cpp"
+"C:\Users\GT\Desktop\ProtocolAnalyzer\ProtocolAnalyzer.cpp"
+"C:\Users\GT\Desktop\ProtocolAnalyzer\ProtocolAnalyzerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\GT\AppData\Local\Temp\RSP4E3F.tmp" 
+Creating temporary file "C:\Users\GT\AppData\Local\Temp\RSP4E40.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ProtocolAnalyzer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\GT\Desktop\ProtocolAnalyzer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\GT\AppData\Local\Temp\RSP4E40.tmp" 
+Creating temporary file "C:\Users\GT\AppData\Local\Temp\RSP4E41.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ProtocolAnalyzer.pdb" /machine:I386 /out:"Release/ProtocolAnalyzer.exe" 
+.\Release\AdapterSelected.obj
+.\Release\ProtocolAnalyzer.obj
+.\Release\ProtocolAnalyzerDlg.obj
+.\Release\StdAfx.obj
+.\Release\ProtocolAnalyzer.res
+]
+Creating command line "link.exe @C:\Users\GT\AppData\Local\Temp\RSP4E41.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdapterSelected.cpp
+ProtocolAnalyzer.cpp
+ProtocolAnalyzerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ProtocolAnalyzer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
